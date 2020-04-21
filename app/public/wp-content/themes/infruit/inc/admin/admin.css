@@ -1,0 +1,156 @@
+/*--------------------------------------------------------------
+# infruit - Admin CSS
+--------------------------------------------------------------*/
+li .premium-link {
+    color: #f18500;
+}
+.tgm-custom-button {
+	padding: 0 0 5px;
+}
+.tgm-custom-button span {
+    font-size: 16px;
+    color: #000;
+}
+.tgm-custom-button a.tgm-custom-button {
+	display: inline-block;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset !important;
+    background-color: #006CC9;
+    color: #FFF !important;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0 0 0 5px;
+    padding: 4px 10px;
+    text-decoration: none;
+}
+.tgm-custom-button a.tgm-custom-button:hover {
+	background-color: #0952A9;
+}
+/* ---- Slider ---- */
+#adminmenu li#menu-posts-infruit-slider {
+	display: none;
+}
+body.infruit-enable-olslider #adminmenu li#menu-posts-infruit-slider {
+	display: block;
+}
+
+/* ---- Show / Hide Widget areas depending on selected footer ---- */
+body.infruit-footer-split.widgets-php #infruit-site-footer-custom-1.widgets-sortables,
+body.infruit-footer-split.widgets-php #infruit-site-footer-custom-2.widgets-sortables,
+body.infruit-footer-split.widgets-php #infruit-site-footer-custom-3.widgets-sortables,
+body.infruit-footer-split.widgets-php #infruit-site-footer-custom-4.widgets-sortables,
+body.infruit-footer-split.widgets-php #infruit-site-footer-custom-5.widgets-sortables,
+body.infruit-footer-split.widgets-php #infruit-site-footer-social,
+
+body.infruit-footer-social.widgets-php #infruit-site-footer-custom-1.widgets-sortables,
+body.infruit-footer-social.widgets-php #infruit-site-footer-custom-2.widgets-sortables,
+body.infruit-footer-social.widgets-php #infruit-site-footer-custom-3.widgets-sortables,
+body.infruit-footer-social.widgets-php #infruit-site-footer-custom-4.widgets-sortables,
+body.infruit-footer-social.widgets-php #infruit-site-footer-custom-5.widgets-sortables,
+body.infruit-footer-social.widgets-php #infruit-site-footer-split,
+
+body.infruit-footer-default.infruit-footer-custom-cols-1.widgets-php #infruit-site-footer-custom-2.widgets-sortables,
+body.infruit-footer-default.infruit-footer-custom-cols-1.widgets-php #infruit-site-footer-custom-3.widgets-sortables,
+body.infruit-footer-default.infruit-footer-custom-cols-1.widgets-php #infruit-site-footer-custom-4.widgets-sortables,
+body.infruit-footer-default.infruit-footer-custom-cols-1.widgets-php #infruit-site-footer-custom-5.widgets-sortables,
+
+body.infruit-footer-default.infruit-footer-custom-cols-2.widgets-php #infruit-site-footer-custom-3.widgets-sortables,
+body.infruit-footer-default.infruit-footer-custom-cols-2.widgets-php #infruit-site-footer-custom-4.widgets-sortables,
+body.infruit-footer-default.infruit-footer-custom-cols-2.widgets-php #infruit-site-footer-custom-5.widgets-sortables,
+
+body.infruit-footer-default.infruit-footer-custom-cols-3.widgets-php #infruit-site-footer-custom-4.widgets-sortables,
+body.infruit-footer-default.infruit-footer-custom-cols-3.widgets-php #infruit-site-footer-custom-5.widgets-sortables,
+
+body.infruit-footer-default.infruit-footer-custom-cols-4.widgets-php #infruit-site-footer-custom-5.widgets-sortables,
+body.infruit-footer-default.widgets-php #infruit-site-footer-split,
+
+body.infruit-footer-none.widgets-php #infruit-site-footer-custom-1.widgets-sortables,
+body.infruit-footer-none.widgets-php #infruit-site-footer-custom-2.widgets-sortables,
+body.infruit-footer-none.widgets-php #infruit-site-footer-custom-3.widgets-sortables,
+body.infruit-footer-none.widgets-php #infruit-site-footer-custom-4.widgets-sortables,
+body.infruit-footer-none.widgets-php #infruit-site-footer-custom-5.widgets-sortables,
+body.infruit-footer-none.widgets-php #infruit-site-footer-split,
+body.infruit-footer-none.widgets-php #infruit-site-footer-social {
+	display: none !important;
+}
+
+body.widgets-php .widgets-holder-wrap {
+	box-shadow: none;
+	border: 0;
+}
+
+body.widgets-php #sidebar-1,
+body.infruit-footer-split.widgets-php #infruit-site-footer-split,
+body.infruit-footer-social.widgets-php #infruit-site-footer-social,
+body.infruit-footer-default.widgets-php #infruit-site-footer-custom-1,
+body.infruit-footer-default.widgets-php #infruit-site-footer-custom-2,
+body.infruit-footer-default.widgets-php #infruit-site-footer-custom-3,
+body.infruit-footer-default.widgets-php #infruit-site-footer-custom-4,
+body.infruit-footer-default.widgets-php #infruit-site-footer-custom-5 {
+	border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+/* ---- Admin License/Renew Notice ---- */
+.infruit-admin-notice {
+    position: relative;
+    padding: 5px 15px 15px;
+    border-left-color: #006CC9;
+}
+.infruit-admin-notice h4 {
+    margin: 10px 0 8px;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+.infruit-admin-notice h4 span {
+    margin: 0 0 0 5px;
+}
+.infruit-admin-notice a.infruit-admin-notice-a {
+    display: inline-block;
+    vertical-align: baseline;
+    border-radius: 3px;
+    color: #555;
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+    box-shadow: 0 1px 0 #ccc;
+    font-weight: 400;
+    margin: 0 3px;
+    padding: 4px 7px;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease 0s;
+     -moz-transition: all 0.3s ease 0s;
+      -ms-transition: all 0.3s ease 0s;
+       -o-transition: all 0.3s ease 0s;
+          transition: all 0.3s ease 0s;
+}
+.infruit-admin-notice a.infruit-admin-notice-a:hover {
+    background-color: #006CC9;
+    color: #FFF;
+}
+.infruit-notice-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #ababab;
+    font-size: 11px;
+    text-decoration: none;
+}
+.infruit-notice-close::after {
+    background: 0 0;
+    color: #72777c;
+    content: "\f153";
+    font: 400 16px/20px dashicons;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    top: 4px;
+    margin: 0 0 0 4px;
+    width: 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.infruit-notice-close:hover::after {
+    color: #c00;
+}

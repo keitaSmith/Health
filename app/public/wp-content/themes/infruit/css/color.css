@@ -1,0 +1,453 @@
+/*==============================
+       color properties 
+ ============================== */
+
+a,
+.faq-box a.collapsed,
+
+.blog-sidebar>h3 {
+    color: #111111
+}
+
+.small {
+    color: #bababb;
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #272630;
+}
+
+.h1 a,
+.h2 a,
+.h3 a,
+.h4 a,
+.h5 a,
+.h6 a,
+h1 a,
+h2 a,
+h3 a,
+h5 a:hover,h5 a:focus,
+h6 a,
+a:focus,
+a:hover,
+.icon i,
+.color-common,
+
+.nav>li>a:focus,
+.nav>li>a:hover,
+.nav>li.active > a,
+.dark-colaud .colud-content .tag-line> span,
+.testi-panel .control-round .carousel-control.left:hover,
+.testi-panel .control-round .carousel-control.right:hover,
+.testi-panel .control-round .carousel-control.left:focus,
+.testi-panel .control-round .carousel-control.right:focus,
+
+.blog h4:hover,.blog h4:focus,
+.contact-area .contact h5,
+.page-title .breadcrumb a:hover,
+.blog-title a:hover,
+.page-title .breadcrumb a:focus,
+.blog-title a:focus,
+.page-title h3,
+.comment-section h4,
+.comments ul li a,
+.slide-text a:hover,.slide-text a:focus,
+.iTyped-preview,
+.iTyped,
+footer .widget_text .footer_social span a:hover,
+footer .widget-list ul li a:hover,
+footer .wid_contact .wid-con-list li a:hover,
+footer .widget_text .footer_social span a:focus,
+footer .widget-list ul li a:focus,
+footer .wid_contact .wid-con-list li a:focus,
+.theme-color,
+.btn-custom:hover,.btn-custom:focus,
+.slide-text a:active {
+    color: #1dbe6f;
+}
+.contact-area .btn-submit:hover,
+.blog a.read-more:hover,
+.contact-area .btn-submit:focus,
+.blog a.read-more:focus,
+.contact-area ul.social li a,
+.projects .work .overlay .z-icon,
+.contact-area .contact p a,
+.contact-area .contact,
+.team h5,
+.footer-title,
+.btn-custom{
+    color: #232323;
+}
+#to-top,
+.navbar-nav>li>a,
+
+.faq-box a,
+.dark-colaud  .colaud-btn .default-btn:hover,.dark-colaud  .colaud-btn .default-btn:focus,
+.color-white,
+.testi-panel .control-round .carousel-control,
+.summary-section .box,
+.summary-section .box h4,
+.team ul.social li a,
+.wht-title .cmn-title-pic,
+.faq-box a.collapsed:after,
+
+
+
+.contact-area .btn-submit,
+.copyright,
+.featured-pic .date,
+.dark-colaud .colud-content h2,
+
+.slide-text a.btn-default,
+.team ul.social li a:hover,.team ul.social li a:focus,
+.slide-text p,
+.slide-text h2,
+.work-section .work-btns li a.active,
+.control-round .carousel-control.left:hover,
+.work-section .work-btns li a:hover,.control-round .carousel-control.left:focus,
+.work-section .work-btns li a:focus,
+.featured-pic a,
+.blog:hover .date,.blog:focus .date,
+.control-round .carousel-control.right:hover,.control-round .carousel-control.right:focus,
+.search-form .btn:focus,
+.blog-sidebar .tag-cloud li a:hover,.blog-sidebar .tag-cloud li a:focus,
+.control-round .carousel-control,
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover,
+.d-tags li a:hover,
+.slide-effect:hover,
+.blog a.read-more:hover,.d-tags li a:focus,
+.slide-effect:focus,
+.blog a.read-more:focus,
+.skill-title,
+.testimonial h4,
+.testimonial>p,
+.progress-title span,
+.progress-title,
+.comment-form .btn-submit,
+.comment-form .btn-submit:hover,
+.contact-area ul.social li a:hover,
+.blog-page a.read-more:hover,.comment-form .btn-submit:focus,
+.contact-area ul.social li a:focus,
+.blog-page a.read-more:focus,
+.slide-text h3 {
+    color: #fff !important;
+}
+
+body,
+.strong,
+b,
+strong,
+
+.dark,
+.blog-title a,
+.blog p.content,
+.blogs a.read-more,
+.blog-title a,
+.blog h4,
+.slide-text a.btn-default:hover,
+.info-box:hover,
+.info-box:hover i,
+.slide-text a.btn-default:hover .blog .meta,
+.slide-text a.btn-default:focus,
+.info-box:focus,
+.info-box:focus i,
+.slide-text a.btn-default:focus .blog .meta {
+    color: #444;
+}
+
+.page-title .breadcrumb a,
+.comments ul li a:hover,.comments ul li a:focus {
+    color: #bababb;
+}
+
+.bg-gray{
+    background-color: #f7f7f7 !important;
+}
+/*==============================
+     background  color properties 
+  ============================== */
+
+.testi-panel .carousel-indicators li {
+    background-color: #7c7c7c;
+}
+
+.bg-dark,
+.navbar-nav>li>a:before,
+.faq-box a:after,
+.skill-panel,
+.faq-box a,
+.blogs a.read-more:hover,.blogs a.read-more:focus,
+.contact-area .btn-submit,
+
+.work-section .work-btns li a:hover,.work-section .work-btns li a:focus,
+.work-section .work-btns li a.active,
+.blog:hover .date,
+.blog a.read-more:hover,
+.team ul.social li a:hover,.blog:focus .date,
+.blog a.read-more:focus,
+.team ul.social li a:focus,
+.slider-main .indicators-line>.carousel-indicators .active,
+.carousel-indicators .active,
+.slide-text a:hover,.slide-text a:focus,
+.slide-text a:active,
+.dark-colaud  .colaud-btn .default-btn,
+.blog-sidebar .tag-cloud li a:hover,
+.featured-pic:hover .date,
+.slide-effect:hover,.blog-sidebar .tag-cloud li a:focus,
+.featured-pic:focus .date,
+.slide-effect:focus,
+.preloader .spinner,
+.title-icon:after,
+.testi-panel .carousel-indicators li.active,
+.slide-text a.btn-default.active,
+.search-form .btn:focus,
+.blog-page a.read-more:hover,.blog-page a.read-more:focus,
+.pagination>.active>a,
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover,
+.comment-form .btn-submit,
+.d-tags li a:hover,
+.contact-area ul.social li a:hover .d-tags li a:focus,
+.contact-area ul.social li a:focus {
+    background-color: #1dbe6f;
+}
+
+body,
+.bg-white,
+.navbar-toggle span,
+section.about,
+.info-box:hover,.info-box:focus,
+.faq-box a.collapsed,
+.testimonial .content,
+.summary-section .box span,
+.projects .work .overlay .box,
+.team-section,
+.progress .progress-bar:after,
+.progress.red .progress-bar:after,
+.posts-section,
+
+.slider-main .indicators-line>.carousel-indicators li,
+.title-icon-inverse:before,
+.title-icon-inverse:after,
+.wht-title .title-icon::before,
+.wht-title .title-icon::after,
+.projects .work .overlay .z-icon:before,
+.slide-text a.btn-default:hover,
+.slide-text a.btn-default:hover,.slide-text a.btn-default:focus,
+.slide-text a.btn-default:focus,
+.preloader,
+.slide-effect {
+    background: #fff;
+}
+
+
+.featured-pic .date,
+.summary-section .overlay,
+.comment-form .btn-submit:hover,.comment-form .btn-submit:focus,
+.faq-box a.collapsed:after,
+.team .overlay {
+    background-color: #000;
+}
+
+.title-icon span:after,
+.title-icon span:before{
+    border-color: #232323;
+}
+.dark-colaud  .colaud-btn .default-btn:hover,.dark-colaud  .colaud-btn .default-btn:focus,
+#to-top,
+.title-icon::after,
+.title-icon::before{
+    background-color: #232323;
+}
+
+    .statistics-panel,
+.posts-section {
+    background-color: #f7f7f7;
+}
+
+.contact-area
+{
+    background-color: #fff;
+}
+
+.copyright {
+    background-color: #353535;
+}
+
+.carousel-indicators li {
+    background-color: #7c7c7c;
+}
+
+blockquote {
+    background-color: #ebebeb;
+}
+
+
+/*==============================
+     border   color properties 
+  ============================== */
+
+.progress .progress-bar:after,
+.contact-area .contact-form input[type="text"]:focus,
+.contact-area .contact-form textarea:focus,
+
+.contact-area .btn-submit:hover,.contact-area .btn-submit:focus,
+.btn-custom,
+
+
+.contact-area ul.social li a:hover,.contact-area ul.social li a:focus,
+
+.contact-area ul.social li a,
+.blog-page a.read-more:hover,.blog-page a.read-more:focus,
+blockquote,
+
+.team .pic:after {
+    border-color: transparent;
+}
+.wht-title .title-icon span:after, .wht-title .title-icon span:before,
+.btn-custom:hover,
+.slide-text a.btn-default.active:hover,.btn-custom:focus,
+.slide-text a.btn-default.active:focus,
+.testimonial .test-pic img,
+.team ul.social li a,
+.title-icon-inverse span:after,
+.title-icon-inverse span:before,
+
+.slide-text a.btn-default {
+    border-color: #fff ;
+}
+.faq-box .panel-collapse.collapse.in,
+.blogs a.read-more,
+    .blog-page a.read-more,
+.faq-box a.collapsed {
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+.testimonial .content:after,
+.testimonial .content:before {
+    border-top: 25px solid #fff;
+}
+
+.testimonial .content:before {
+    border-top: 25px solid #000000;
+}
+
+.icon {
+    border-color: #fff transparent;
+}
+
+.icon:before {
+    border-color: transparent transparent #fff;
+}
+.d-tags li a:hover,
+.contact-area ul.social li a:hover,.d-tags li a:focus,
+.contact-area ul.social li a:focus,
+.contact-area .btn-submit,
+.team .pic:after,
+.team ul.social li a:hover,
+.slide-effect:hover,.team ul.social li a:focus,
+.slide-effect:focus,
+.slide-text a.btn-default.active,
+.blog a.read-more:hover,
+.work-section .work-btns li a:hover,.blog a.read-more:focus,
+.work-section .work-btns li a:focus,
+.work-section .work-btns li a.active{
+    border-color: #1dbe6f;
+}
+
+/* outline colors  */
+
+.progress.red .progress-bar:after {
+    outline-color: #fff;
+}
+
+
+/* gradients  */
+
+
+/*==============================
+     RGBA   color properties 
+  ============================== */
+
+.control-round .carousel-control.left:hover,
+.control-round .carousel-control.right:hover,.control-round .carousel-control.left:focus,
+.control-round .carousel-control.right:focus,
+.page-title .overlay,
+.video-home .overlay,
+.parallax-home .overlay,
+.bs-slider .bs-slider-overlay {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.progress {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.menubar {
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.menubar.affix {
+    background-color: #1b1b1b;
+}
+
+.menubar.bg-dark {
+    background-color: #1b1b1b;
+}
+
+.icon {
+    border-color: #f7f7f7 transparent;
+}
+.info-box:hover .icon,.info-box:focus .icon {
+    border-color: #fff transparent;
+}
+.icon2 {
+    border-color: #ccc transparent;
+}
+.info-box:hover .icon:before ,.info-box:focus .icon:before {
+    border-color: transparent transparent #fff;
+}
+.icon:before {
+    border-color: transparent transparent #f7f7f7;
+}
+
+.icon2:before {
+    border-color: transparent transparent #ccc;
+}
+
+.testimonial .test-pic img {
+    border: 5px;
+    max-width: 100%;
+    width: 100px;
+    border-style: solid;
+    border-color: #1dbe6f;
+    -webkit-box-shadow: 0 2px 4px 2px rgba(90, 90, 90, 0.33);
+    box-shadow: 0 2px 4px 2px rgba(90, 90, 90, 0.33);
+}
+.testi-bg .overlay{
+    background-color: rgba(0, 0, 0, 0.85);   
+}
+.summary-section .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.summary-section .box {
+    background: hsla(0, 0%, 100%, 0.1);
+}
+
+.team .overlay {
+    background: rgba(0, 0, 0, 0.58);
+}

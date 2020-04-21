@@ -1,0 +1,143 @@
+@media (min-width:1200px){
+		.navbar-nav>li>a {
+			font-size: 16px;
+			text-transform: capitalize;
+			font-weight: bold;
+			padding: 28px 20px;
+		}
+}
+
+@media (min-width:1200px) and (max-width:1600px) {
+	.projects .work .overlay {
+		padding: 25% 20px 0;
+	}
+	.projects .work .overlay .box {
+		padding: 20px 35px;
+		margin: 20px auto;
+	}
+	.projects .work .overlay .box h5 {
+		font-size: 1.8em;
+	}
+}
+
+@media (min-width:1000px) and (max-width:1200px) {
+	.projects .work .overlay {
+		padding: 15% 20px 0;
+	}
+}
+
+@media (max-width:1200px) {
+	.projects .work .overlay .box {
+		padding: 20px 35px;
+		margin: 20px auto;
+	}
+	.projects .work {
+		width: 33%;
+		width: calc(100%/3);
+	}
+	.navbar-fixed-bottom .navbar-collapse,
+	.navbar-fixed-top .navbar-collapse {
+		max-height: 350px;
+}
+.navbar-nav>li>a {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 28px 14px;
+}
+}
+
+	@media (max-width: 992px) {
+	
+	.test-faq-section,
+	.skill-stats-section {
+		display: block;
+	}
+	.faqs-panel,
+	.testi-panel,
+	.skill-panel,
+	.statistics-panel {
+		padding: 10px;
+		width: 100%;
+	}
+	.summary-section {
+		background-size: 100% 100%;
+		padding: 50px 0;
+	}
+	.summary-section .box {
+		margin: 50px auto 0;
+	}
+	.pTBM-120 {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	.work-section {
+		padding-top: 90px;
+	}
+	.projects .work {
+		width: 50%;
+		width: calc(100%/2);
+	}
+	.work-section .work-btns {
+		padding: 0 0 50px 0;
+	}
+	
+	.blog-sidebar{
+		margin: 10px auto;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+	.container {
+		width: 100%;
+	}
+
+	.navbar-nav>li>a {
+		padding-left: 10px;
+		padding-right: 10px;
+	
+}
+.navbar-nav>li>a {
+	font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 28px 12px;
+}
+
+
+	.projects .work .overlay {
+		padding: 15% 20px 0;
+	}
+
+}
+
+
+
+@media (max-width: 992px) {
+
+.slicknav_nav { margin-top:50px !important; }
+
+.slicknav_brand {
+  float: left; padding-top:0 !important; padding-bottom:0 !important;  }
+
+
+.slicknav_brand h1{ font-size:1.5em; line-height:1 !important; padding-top:0 !important; padding-bottom:0 !important; margin:0px !important;  }
+
+.slicknav_brand p{
+      font-size: 11px;
+    margin: 0px;
+}
+}
+	@media (max-width: 767px) {
+	.cmn-title-pic {
+		font-size: 2em;
+	}
+	.work-section {
+		padding-top: 60px;
+	}
+	.container {
+		width: 100%;
+	}
+	}
