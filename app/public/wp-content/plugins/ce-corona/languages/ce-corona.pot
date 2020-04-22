@@ -1,0 +1,585 @@
+# Copyright (C) 2020 Priyo Mukul
+# This file is distributed under the same license as the COVID19 - Coronavirus Outbreak Data plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: COVID19 - Coronavirus Outbreak Data 0.5.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ce-corona\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-04-18T21:07:20+06:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: ce-corona\n"
+
+#. Plugin Name of the plugin
+msgid "COVID19 - Coronavirus Outbreak Data"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://coderexpert.com/corona"
+msgstr ""
+
+#. Description of the plugin
+msgid "Realtime covid19 outbreak data checker and Awareness Plugin coronavirus."
+msgstr ""
+
+#. Author of the plugin
+msgid "Priyo Mukul"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://mukul.me"
+msgstr ""
+
+#: classes/admin/shortcode.php:63
+#: classes/admin/shortcode.php:141
+#: classes/countrywise-elementor-widget.php:427
+msgid "Last Updated"
+msgstr ""
+
+#: classes/admin/shortcode.php:64
+msgid "Flag"
+msgstr ""
+
+#: classes/admin/shortcode.php:65
+#: assets/js/src/components/CountryStats/old.js:90
+msgid "Country"
+msgstr ""
+
+#: classes/admin/shortcode.php:66
+msgid "States"
+msgstr ""
+
+#: classes/admin/shortcode.php:67
+#: classes/elementor-widget.php:1110
+#: assets/js/src/components/CountryStats/old.js:91
+msgid "Total Cases"
+msgstr ""
+
+#: classes/admin/shortcode.php:68
+msgid "New Cases"
+msgstr ""
+
+#: classes/admin/shortcode.php:69
+#: classes/admin/shortcode.php:99
+#: classes/admin/shortcode.php:143
+#: classes/admin/widget.php:31
+#: classes/admin/widget.php:92
+#: classes/admin/widget.php:207
+#: classes/elementor-widget.php:200
+#: classes/elementor-widget.php:1098
+#: assets/js/src/components/CountryStats/old.js:92
+msgid "Total Deaths"
+msgstr ""
+
+#: classes/admin/shortcode.php:70
+#: classes/admin/shortcode.php:144
+msgid "New Deaths"
+msgstr ""
+
+#: classes/admin/shortcode.php:71
+#: classes/admin/shortcode.php:101
+#: classes/admin/shortcode.php:147
+#: classes/admin/widget.php:32
+#: classes/admin/widget.php:93
+#: classes/admin/widget.php:208
+#: classes/elementor-widget.php:192
+#: classes/elementor-widget.php:1104
+#: assets/js/src/components/CountryStats/old.js:93
+msgid "Total Recovered"
+msgstr ""
+
+#: classes/admin/shortcode.php:72
+msgid "Active"
+msgstr ""
+
+#: classes/admin/shortcode.php:73
+msgid "Critical"
+msgstr ""
+
+#: classes/admin/shortcode.php:74
+#: classes/admin/shortcode.php:151
+msgid "Total Tests"
+msgstr ""
+
+#: classes/admin/shortcode.php:75
+#: classes/admin/shortcode.php:152
+msgid "Tests/1M"
+msgstr ""
+
+#: classes/admin/shortcode.php:76
+#: classes/admin/shortcode.php:149
+msgid "Case/1M"
+msgstr ""
+
+#: classes/admin/shortcode.php:77
+#: classes/admin/shortcode.php:150
+msgid "Deaths/1M"
+msgstr ""
+
+#: classes/admin/shortcode.php:78
+msgid "Date"
+msgstr ""
+
+#: classes/admin/shortcode.php:94
+#: classes/admin/shortcode.php:164
+#: classes/elementor-widget.php:156
+msgid "Total Stats"
+msgstr ""
+
+#: classes/admin/shortcode.php:95
+#: classes/elementor-widget.php:238
+msgid "Compare Data by Country"
+msgstr ""
+
+#: classes/admin/shortcode.php:96
+#: classes/admin/shortcode.php:165
+#: classes/elementor-widget.php:226
+msgid "Recent"
+msgstr ""
+
+#: classes/admin/shortcode.php:97
+#: classes/admin/shortcode.php:167
+#: classes/elementor-widget.php:216
+#: classes/elementor-widget.php:1086
+msgid "Affected Countries"
+msgstr ""
+
+#: classes/admin/shortcode.php:98
+#: classes/admin/shortcode.php:142
+#: classes/elementor-widget.php:208
+#: classes/elementor-widget.php:1092
+#: assets/js/src/components/CountryStats/old.js:94
+msgid "Active Cases"
+msgstr ""
+
+#: classes/admin/shortcode.php:100
+#: classes/admin/shortcode.php:146
+#: classes/admin/widget.php:30
+#: classes/admin/widget.php:91
+#: classes/admin/widget.php:206
+#: classes/elementor-widget.php:184
+msgid "Confirmed Cases"
+msgstr ""
+
+#: classes/admin/shortcode.php:145
+msgid "New Case"
+msgstr ""
+
+#: classes/admin/shortcode.php:148
+msgid "in Critical"
+msgstr ""
+
+#: classes/admin/shortcode.php:166
+msgid "Compare By Country"
+msgstr ""
+
+#: classes/admin/widget.php:15
+msgid "A widget for display coronavirus data in your sidebar."
+msgstr ""
+
+#: classes/admin/widget.php:90
+msgid "Corona Virus Data"
+msgstr ""
+
+#: classes/admin/widget.php:105
+msgid "Skin: "
+msgstr ""
+
+#: classes/admin/widget.php:107
+msgid "Skin 1"
+msgstr ""
+
+#: classes/admin/widget.php:111
+msgid "Display Type: "
+msgstr ""
+
+#: classes/admin/widget.php:113
+msgid "Global"
+msgstr ""
+
+#: classes/admin/widget.php:114
+msgid "Country-wise Data"
+msgstr ""
+
+#: classes/admin/widget.php:123
+msgid "Display: "
+msgstr ""
+
+#: classes/admin/widget.php:125
+msgid "All"
+msgstr ""
+
+#: classes/admin/widget.php:126
+msgid "Confirmed"
+msgstr ""
+
+#: classes/admin/widget.php:127
+msgid "Recovered"
+msgstr ""
+
+#: classes/admin/widget.php:128
+msgid "Deaths"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:27
+msgid "Corona - Country-wise"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:347
+#: classes/elementor-widget.php:75
+msgid "General Settings"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:354
+msgid "Select Country"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:365
+msgid "Show States"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:377
+#: classes/elementor-widget.php:100
+msgid "Data Table Style"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:380
+#: classes/elementor-widget.php:103
+msgid "Default"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:381
+#: classes/elementor-widget.php:104
+msgid "Table Style One"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:395
+msgid "Update Time Show"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:418
+#: classes/elementor-widget.php:147
+msgid "Content"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:425
+msgid "Update Title"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:452
+msgid "Common Style"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:460
+msgid "Margin"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:472
+msgid "Padding"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:486
+msgid "Style"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:494
+#: classes/elementor-widget.php:836
+#: classes/elementor-widget.php:886
+msgid "Country Name Color"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:505
+#: classes/elementor-widget.php:806
+msgid "Country Name Typography"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:514
+msgid "Updated Title Color"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:525
+msgid "Update Typography"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:537
+msgid "Box Title Typography"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:546
+msgid "Box Number Typography"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:554
+#: classes/countrywise-elementor-widget.php:687
+#: classes/elementor-widget.php:334
+#: classes/elementor-widget.php:501
+#: classes/elementor-widget.php:606
+#: classes/elementor-widget.php:832
+#: classes/elementor-widget.php:963
+msgid "Normal"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:559
+msgid "Text Align"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:563
+msgid "Left"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:567
+msgid "Center"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:571
+msgid "Right"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:585
+#: classes/countrywise-elementor-widget.php:622
+msgid "Box Title Color"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:596
+#: classes/countrywise-elementor-widget.php:633
+msgid "Box Number Color"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:607
+#: classes/countrywise-elementor-widget.php:644
+msgid "Box Background"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:617
+#: classes/countrywise-elementor-widget.php:717
+#: classes/elementor-widget.php:405
+#: classes/elementor-widget.php:536
+#: classes/elementor-widget.php:645
+#: classes/elementor-widget.php:882
+#: classes/elementor-widget.php:993
+msgid "Hover"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:655
+#: classes/countrywise-elementor-widget.php:749
+#: classes/elementor-widget.php:442
+#: classes/elementor-widget.php:576
+#: classes/elementor-widget.php:684
+#: classes/elementor-widget.php:929
+#: classes/elementor-widget.php:1025
+msgid "Hover Transition"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:678
+msgid "Box Background Overlay"
+msgstr ""
+
+#: classes/countrywise-elementor-widget.php:699
+#: classes/countrywise-elementor-widget.php:729
+#: classes/elementor-widget.php:976
+#: classes/elementor-widget.php:1006
+msgid "Opacity"
+msgstr ""
+
+#: classes/elementor-widget.php:26
+msgid "Corona"
+msgstr ""
+
+#: classes/elementor-widget.php:82
+msgid "Global Data"
+msgstr ""
+
+#: classes/elementor-widget.php:91
+msgid "Data Table"
+msgstr ""
+
+#: classes/elementor-widget.php:113
+msgid "Compare Country"
+msgstr ""
+
+#: classes/elementor-widget.php:116
+msgid "Compare Data for Different country on a specific date."
+msgstr ""
+
+#: classes/elementor-widget.php:123
+msgid "Last Update Time"
+msgstr ""
+
+#: classes/elementor-widget.php:132
+msgid "Comparison Button Position"
+msgstr ""
+
+#: classes/elementor-widget.php:135
+msgid "Above Data Table"
+msgstr ""
+
+#: classes/elementor-widget.php:136
+msgid "Inside Stats Box"
+msgstr ""
+
+#: classes/elementor-widget.php:154
+msgid "Title"
+msgstr ""
+
+#: classes/elementor-widget.php:182
+msgid "Confirmed Title"
+msgstr ""
+
+#: classes/elementor-widget.php:190
+msgid "Recovered Title"
+msgstr ""
+
+#: classes/elementor-widget.php:198
+msgid "Deaths Title"
+msgstr ""
+
+#: classes/elementor-widget.php:206
+msgid "Active Title"
+msgstr ""
+
+#: classes/elementor-widget.php:214
+msgid "Affected Countries Title"
+msgstr ""
+
+#: classes/elementor-widget.php:224
+msgid "Recent Button Text"
+msgstr ""
+
+#: classes/elementor-widget.php:236
+msgid "Compare Button Text"
+msgstr ""
+
+#: classes/elementor-widget.php:276
+msgid "Total Stats Style"
+msgstr ""
+
+#: classes/elementor-widget.php:284
+msgid "Stats Title Color"
+msgstr ""
+
+#: classes/elementor-widget.php:295
+msgid "Stats Title Typography"
+msgstr ""
+
+#: classes/elementor-widget.php:304
+msgid "Updated Text Color"
+msgstr ""
+
+#: classes/elementor-widget.php:315
+msgid "Update Text Typography"
+msgstr ""
+
+#: classes/elementor-widget.php:324
+msgid "Total Stats Background"
+msgstr ""
+
+#: classes/elementor-widget.php:339
+#: classes/elementor-widget.php:410
+msgid "Case Box Text Color"
+msgstr ""
+
+#: classes/elementor-widget.php:350
+#: classes/elementor-widget.php:421
+msgid "Case Box Background"
+msgstr ""
+
+#: classes/elementor-widget.php:359
+msgid "Case Box Border"
+msgstr ""
+
+#: classes/elementor-widget.php:379
+msgid "Case Box Box Shadow"
+msgstr ""
+
+#: classes/elementor-widget.php:388
+msgid "Case Title Typography"
+msgstr ""
+
+#: classes/elementor-widget.php:397
+msgid "Case Number Typography"
+msgstr ""
+
+#: classes/elementor-widget.php:431
+#: classes/elementor-widget.php:553
+#: classes/elementor-widget.php:622
+#: classes/elementor-widget.php:659
+#: classes/elementor-widget.php:918
+msgid "Border Color"
+msgstr ""
+
+#: classes/elementor-widget.php:464
+msgid "Input & Button Design"
+msgstr ""
+
+#: classes/elementor-widget.php:472
+msgid "Search Background Color"
+msgstr ""
+
+#: classes/elementor-widget.php:482
+msgid "Search Border Color"
+msgstr ""
+
+#: classes/elementor-widget.php:492
+msgid "Search Text Color"
+msgstr ""
+
+#: classes/elementor-widget.php:506
+#: classes/elementor-widget.php:541
+msgid "Background Color"
+msgstr ""
+
+#: classes/elementor-widget.php:517
+#: classes/elementor-widget.php:867
+msgid "Border"
+msgstr ""
+
+#: classes/elementor-widget.php:600
+msgid "Data Table One - Style"
+msgstr ""
+
+#: classes/elementor-widget.php:610
+#: classes/elementor-widget.php:650
+#: classes/elementor-widget.php:858
+#: classes/elementor-widget.php:908
+#: classes/elementor-widget.php:967
+#: classes/elementor-widget.php:997
+msgid "Background"
+msgstr ""
+
+#: classes/elementor-widget.php:635
+#: classes/elementor-widget.php:671
+msgid "Text Color"
+msgstr ""
+
+#: classes/elementor-widget.php:795
+msgid "Compare Country Card Style"
+msgstr ""
+
+#: classes/elementor-widget.php:815
+msgid "Margin Bottom"
+msgstr ""
+
+#: classes/elementor-widget.php:846
+#: classes/elementor-widget.php:896
+msgid "Box Text Color"
+msgstr ""
+
+#: classes/elementor-widget.php:875
+msgid "Box Shadow"
+msgstr ""
+
+#: classes/elementor-widget.php:954
+msgid "Card Background Overlay"
+msgstr ""
+
+#: assets/js/src/components/CountryStats/CBoxError.js:10
+msgid "There is no data for this date:"
+msgstr ""
+
+#: assets/js/src/components/CountryStats/CBoxError.js:10
+msgid "Make sure you are selecting date from past."
+msgstr ""

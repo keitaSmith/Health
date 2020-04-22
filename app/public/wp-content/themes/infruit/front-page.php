@@ -25,8 +25,9 @@ if (!is_home() && is_front_page()) {
 
 
 <!-- Blog Starts  -->
-<?php get_template_part( 'front-parts/front-blog' ); ?>
+<?php get_template_part( 'front-parts/front-content' );?>
+<?php get_template_part( 'front-parts/front-blog' ); 
 
-<?php get_template_part( 'front-parts/front-content' );  
+
 }
 get_footer(); ?>

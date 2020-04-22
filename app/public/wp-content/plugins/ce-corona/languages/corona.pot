@@ -1,0 +1,92 @@
+# Copyright (C) 2020 CoderExpert
+# This file is distributed under the same license as the Corona plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Corona 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/corona\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-03-29T00:55:29+06:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: ce-corona\n"
+
+#. Plugin Name of the plugin
+msgid "Corona"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://coderexpert.com/corona"
+msgstr ""
+
+#. Description of the plugin
+msgid "Realtime data checker and Awareness Plugin for Corona Virus - COVID19."
+msgstr ""
+
+#. Author of the plugin
+msgid "CoderExpert"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://coderexpert.com"
+msgstr ""
+
+#: classes/admin/admin.php:40
+msgid "Custom Price"
+msgstr ""
+
+#: classes/admin/admin.php:41
+msgid "Custom Size"
+msgstr ""
+
+#: assets/js/src/components/CountryStats/CBoxError.js:10
+msgid "There is no data for this date:"
+msgstr ""
+
+#: assets/js/src/components/CountryStats/CBoxError.js:10
+msgid "Make sure you are selecting date from past."
+msgstr ""
+
+#: assets/js/src/components/CountryStats/old.js:90
+msgid "Country"
+msgstr ""
+
+#: assets/js/src/components/CountryStats/old.js:91
+msgid "Total Cases"
+msgstr ""
+
+#: assets/js/src/components/CountryStats/old.js:92
+msgid "Total Deaths"
+msgstr ""
+
+#: assets/js/src/components/CountryStats/old.js:93
+msgid "Total Recovered"
+msgstr ""
+
+#: assets/js/src/components/CountryStats/old.js:94
+#: assets/js/src/components/TotalStats/index.js:45
+msgid "Active Cases"
+msgstr ""
+
+#: assets/js/src/components/TotalStats/index.js:19
+msgid "Total Stats"
+msgstr ""
+
+#: assets/js/src/components/TotalStats/index.js:24
+msgid "Cases"
+msgstr ""
+
+#: assets/js/src/components/TotalStats/index.js:30
+msgid "Recovered"
+msgstr ""
+
+#: assets/js/src/components/TotalStats/index.js:36
+msgid "Deaths"
+msgstr ""
+
+#: assets/js/src/components/TotalStats/index.js:59
+msgid "Closed Cases"
+msgstr ""
