@@ -1,6 +1,6 @@
 <?php
 $infruit_hideblog = get_theme_mod('hide_blog', false);
-$infruit_blog_title = get_theme_mod('blog_title', 'How You Can Help');
+$infruit_blog_title = get_theme_mod('blog_title', 'Those in Need During The Covid-19 Pandemic');
 if ($infruit_hideblog == '') {
 
 ?>
