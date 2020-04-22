@@ -30,7 +30,7 @@ else{
 	//live database config
 	define( 'DB_NAME', 'id13268689_wp_30d6a064d85696ff40f673dfb97a5f2d' );
 	define( 'DB_USER', 'id13268689_wp_30d6a064d85696ff40f673dfb97a5f2d' );
-	define( 'DB_PASSWORD', '^Zni6)wd)JPR81Xd' );
+	define( 'DB_PASSWORD', 'uE^u$N{+vm=1/((n' );
 	define( 'DB_HOST', 'localhost' );
 }
 
