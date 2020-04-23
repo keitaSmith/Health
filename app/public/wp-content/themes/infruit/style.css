@@ -11,7 +11,7 @@ Text Domain: infruit
 Tags: right-sidebar, one-column, two-columns,custom-header, editor-style,  footer-widgets, theme-options, translation-ready, threaded-comments 
 */
 .helpImage{
-  width: 150px;
+        width: 150px;  
 }
 * {
     margin: 0;

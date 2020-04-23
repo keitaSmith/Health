@@ -52,10 +52,9 @@ with others.
 
 /*	0. CSS Reset
 /* -------------------------------------------------------------------------- */
-
 .helpImage{
-	width: 150px;
-  }
+	width:150;
+}
 html,
 body {
 	border: none;
