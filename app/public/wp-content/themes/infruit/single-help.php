@@ -19,13 +19,7 @@ get_header(); ?>
                     <?php while (have_posts()) : the_post(); ?>
                         <div id="post-<?php the_ID(); ?>" <?php post_class('blog-page'); ?>>
                             <div class="blog-lg border-none">
-                                <!--                                 
-                                    <div class="date">
-                                        <span>
-                                            <a href="<?php echo esc_url(get_day_link(get_the_time('Y'), get_the_time('m'), get_the_time('d'))); ?>"><?php echo esc_html(get_the_date()); ?></a>
-                                        </span>
-                                     -->
-                                <!-- </div> -->
+                               
                                 <h3 class="blog-title">
                                     <?php the_title(); ?>
                                 </h3>
