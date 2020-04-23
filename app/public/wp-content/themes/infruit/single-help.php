@@ -52,7 +52,6 @@ get_header(); ?>
                                     $image = get_field('image') ?>
                                     <div class="featured-pic">
                                         <a target="_blank" href="<?php echo $image['url']; ?>"><img class="helpImage" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" /></a>
-
                                     </div>
                                 <?php } ?>
                                 <div class="content">
