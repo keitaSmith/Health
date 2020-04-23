@@ -1,0 +1,10 @@
+[23-Apr-2020 18:22:38 UTC] PHP Catchable fatal error:  Object of class WP_Query could not be converted to string in D:\Wordpress\health\app\public\wp-content\themes\infruit\front-parts\front-help-blog.php on line 25
+[23-Apr-2020 18:22:38 UTC] PHP Stack trace:
+[23-Apr-2020 18:22:38 UTC] PHP   1. {main}() D:\Wordpress\health\app\public\index.php:0
+[23-Apr-2020 18:22:38 UTC] PHP   2. require() D:\Wordpress\health\app\public\index.php:17
+[23-Apr-2020 18:22:38 UTC] PHP   3. require_once() D:\Wordpress\health\app\public\wp-blog-header.php:19
+[23-Apr-2020 18:22:38 UTC] PHP   4. include() D:\Wordpress\health\app\public\wp-includes\template-loader.php:106
+[23-Apr-2020 18:22:38 UTC] PHP   5. get_template_part() D:\Wordpress\health\app\public\wp-content\themes\infruit\front-page.php:18
+[23-Apr-2020 18:22:38 UTC] PHP   6. locate_template() D:\Wordpress\health\app\public\wp-includes\general-template.php:168
+[23-Apr-2020 18:22:38 UTC] PHP   7. load_template() D:\Wordpress\health\app\public\wp-includes\template.php:672
+[23-Apr-2020 18:22:38 UTC] PHP   8. require() D:\Wordpress\health\app\public\wp-includes\template.php:725

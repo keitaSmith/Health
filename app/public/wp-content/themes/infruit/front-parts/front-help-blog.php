@@ -22,24 +22,21 @@ if ($infruit_hideblog == '') {
                             'post_type' => 'help'
                         )
                     );
+                    //echo $latest_blog_posts->the_post();
                     if ($latest_blog_posts->have_posts()) :
                         while ($latest_blog_posts->have_posts()) :
-                            $latest_blog_posts->the_post();  ?>
+                            $latest_blog_posts->the_post();
+                            $image = get_field('image');
+                    ?>
                             <!-- post -->
+
                             <div class="col-md-4 col-sm-6">
                                 <article class="blog">
-                                    <?php if (has_post_thumbnail()) { ?>
-                                        <div class="featured-pic">
-                                            <?php the_post_thumbnail(); ?>
-                                            <div class="date">
-                                                <span><?php the_category(__(', ', 'infruit')); ?></span>
-                                            </div>
-                                        </div>
-                                    <?php } ?>
                                     <div class="blog-inner-box">
                                         <h4>
                                             <a href="<?php echo esc_url(get_permalink()); ?>"><?php the_title(); ?></a>
                                         </h4>
+                                        
                                         <ul class="meta clearfix">
                                             <li class="author">
                                                 <i class="fa fa-user"></i> <a href="<?php echo esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>"><?php echo esc_html__('By', 'infruit'); ?> <?php the_author(); ?></a>
@@ -48,6 +45,11 @@ if ($infruit_hideblog == '') {
                                                 <i class="fa fa-clock-o"></i> <?php echo esc_html(get_the_date()); ?>
                                             </li>
                                         </ul>
+                                        <?php if (!empty($image)) { ?>
+                                            <div class="featured-pic">
+                                                <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+                                            </div>
+                                        <?php } ?>
                                         <p class="content"><?php the_excerpt(); ?></p>
                                         <a class="read-more gTransition" href="<?php echo esc_url(get_permalink()); ?>" target="_blank">
                                             <?php echo esc_html__('Read More', 'infruit'); ?>
