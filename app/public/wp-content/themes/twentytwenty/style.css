@@ -53,7 +53,9 @@ with others.
 /*	0. CSS Reset
 /* -------------------------------------------------------------------------- */
 
-
+.helpImage{
+	width: 150px;
+  }
 html,
 body {
 	border: none;
