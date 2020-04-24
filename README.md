@@ -9,3 +9,5 @@ The Custom website is about providing information about the Corona Virus, in par
 Our site aims to help organisations and people who are struggling because they can't work or people whose situation have worsened due to the drastic decrease in social aid since less people go out to help. For example the homeless are suffering alot more now because people aren't around to help them with spare change or food or even small one day jobs to help them get by.
 Secondly for people who are not necessarily having a hard time during the pandemic but would like to keep extra safe by not leaving the house, our site offers Food Delivery Services. With these Services you can pay someone to deliver fresh produce to your home.
 **Note that both of these features are done using Cusom Post Types.**
+#### Details
+See Details at our [Wiki Docs](https://github.com/keitaSmith/Health/wiki/)
