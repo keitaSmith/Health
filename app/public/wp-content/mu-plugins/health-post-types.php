@@ -12,6 +12,20 @@ function health_post_types (){
             ),
         'menu_icon'=>'dashicons-heart'
     ));
+
+register_post_type('delivery',array(
+    'public' => true,
+    'has_archive' => false,
+    'supports' => array('title', 'editor','excerpt'),
+        'labels'=>array(
+    'name' => "Food Delivery Services",
+    'add_new_item'=>'Add New Food Delivery Service',
+    'edit_item'=>'Edit Delivery Service',
+    'singular_name' => 'Food Delivery Service',
+    'all_items' => 'All Food Delivery Services'
+        ),
+    'menu_icon'=>'dashicons-carrot'
+));
 }
 add_action('init','health_post_types');
 ?>

@@ -8,3 +8,24 @@
 [23-Apr-2020 18:22:38 UTC] PHP   6. locate_template() D:\Wordpress\health\app\public\wp-includes\general-template.php:168
 [23-Apr-2020 18:22:38 UTC] PHP   7. load_template() D:\Wordpress\health\app\public\wp-includes\template.php:672
 [23-Apr-2020 18:22:38 UTC] PHP   8. require() D:\Wordpress\health\app\public\wp-includes\template.php:725
+[24-Apr-2020 07:15:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in D:\Wordpress\health\app\public\wp-content\themes\infruit\page-services.php:31
+Stack trace:
+#0 D:\Wordpress\health\app\public\wp-includes\template-loader.php(106): include()
+#1 D:\Wordpress\health\app\public\wp-blog-header.php(19): require_once('D:\\Wordpress\\he...')
+#2 D:\Wordpress\health\app\public\index.php(17): require('D:\\Wordpress\\he...')
+#3 {main}
+  thrown in D:\Wordpress\health\app\public\wp-content\themes\infruit\page-services.php on line 31
+[24-Apr-2020 07:15:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in D:\Wordpress\health\app\public\wp-content\themes\infruit\page-services.php:30
+Stack trace:
+#0 D:\Wordpress\health\app\public\wp-includes\template-loader.php(106): include()
+#1 D:\Wordpress\health\app\public\wp-blog-header.php(19): require_once('D:\\Wordpress\\he...')
+#2 D:\Wordpress\health\app\public\index.php(17): require('D:\\Wordpress\\he...')
+#3 {main}
+  thrown in D:\Wordpress\health\app\public\wp-content\themes\infruit\page-services.php on line 30
+[24-Apr-2020 07:15:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in D:\Wordpress\health\app\public\wp-content\themes\infruit\page-services.php:30
+Stack trace:
+#0 D:\Wordpress\health\app\public\wp-includes\template-loader.php(106): include()
+#1 D:\Wordpress\health\app\public\wp-blog-header.php(19): require_once('D:\\Wordpress\\he...')
+#2 D:\Wordpress\health\app\public\index.php(17): require('D:\\Wordpress\\he...')
+#3 {main}
+  thrown in D:\Wordpress\health\app\public\wp-content\themes\infruit\page-services.php on line 30

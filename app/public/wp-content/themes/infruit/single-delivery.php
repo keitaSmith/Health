@@ -1,7 +1,7 @@
 <?php
 
 /**
- * The Template for displaying all help posts.
+ * The Template for displaying all single service posts.
  *
  * @package Infruit
  */
@@ -22,25 +22,6 @@ get_header(); ?>
                                 <h3 class="blog-title">
                                     <?php the_title(); ?>
                                 </h3>
-
-                                <ul class="meta clearfix">
-                                    <li class="author">
-                                        <i class="fa fa-user"></i> <a href="<?php echo esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>"><?php echo esc_html__('By', 'infruit'); ?> <?php the_author(); ?></a>
-                                    </li>
-                                    <li class="author">
-                                        <i class="fa fa-clock-o"></i> <?php echo esc_html(get_the_date()); ?>
-                                    </li>
-                                    <?php if (has_category()) { ?>
-                                        <li>
-                                            <i class="fa fa-folder-open"></i>
-                                            <span>
-                                                <?php the_category(__(', ', 'infruit')); ?>
-                                            </span>
-                                        </li>
-                                    <?php } ?>
-
-                                </ul>
-
                                 <?php if (get_field('image')) {
                                     $image = get_field('image') ?>
                                     <div class="featured-pic">
@@ -49,11 +30,8 @@ get_header(); ?>
                                 <?php } ?>
                                 <div class="content">
                                     <?php the_content(); 
-                                        if(get_field('desired_items')){
-                                            echo "<h4>Desired Items</h4> ". get_field('desired_items') . "<br>";
-                                        }
-                                        if(get_field('address')){
-                                            echo "<h4>Address</h4> ". get_field('address') ."<br>";
+                                        if(get_field('facebook_page')){
+                                            echo "<h4>Facebook Page</h4> <a href=".get_field('facebook_page') .">". get_field('facebook_page') . "</a><br>";
                                         }
                                         if(get_field('contact')){
                                             echo "<h4>Contact</h4> ".get_field('contact') . "<br>";

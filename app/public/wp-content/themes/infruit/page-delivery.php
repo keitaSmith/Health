@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name: Help
+ * Template Name: Delivery Services
  * 
  *
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
@@ -20,16 +20,16 @@ infruit_breadcrumb(); ?>
 
 
                 <?php
-                $help_posts = new WP_Query(
+                $delivery_posts = new WP_Query(
                     array(
                         //'posts_per_page' => 3,
-                        'post_type' => 'help'
+                        'post_type' => 'delivery'
                     )
                 );
                 //echo $latest_blog_posts->the_post();
-                if ($help_posts->have_posts()) :
-                    while ($help_posts->have_posts()) :
-                        $help_posts->the_post();
+                if ($delivery_posts->have_posts()) :
+                    while ($delivery_posts->have_posts()) :
+                        $delivery_posts->the_post();
                         $image = get_field('image');
                 ?>
                         <div class="blog-page">
@@ -38,14 +38,6 @@ infruit_breadcrumb(); ?>
                                     <h4>
                                         <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                                     </h4>
-                                    <ul class="meta clearfix">
-                                        <li class="author">
-                                            <i class="fa fa-user"></i> <a href="<?php echo esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>"><?php echo esc_html__('By', 'infruit'); ?> <?php the_author(); ?></a>
-                                        </li>
-                                        <li class="author">
-                                            <i class="fa fa-clock-o"></i> <?php echo esc_html(get_the_date()); ?>
-                                        </li>
-                                    </ul>
                                     <?php if (!empty($image)) { ?>
                                         <div class="featured-pic">
                                         <a target="_blank" href="<?php echo $image['url']; ?>"><img class="helpImage" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" /></a>
