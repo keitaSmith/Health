@@ -1,6 +1,8 @@
 # Health
 Web-2 Project
 
+### About Us
+We are a team of three young developers enrolled at the University of the West Indies. Our field of study is Computer Science,which means we think coding is cool. We view coding to be supplementary to the technology we utilize daily. Feel free to contribute to our project. 
 ### About This Project
 This project was created in order to understand wordpress as it relates to php files, so that we could create a custom website by modifying or adding files to an existing wordpress theme; In this case, the [Infruit Theme](https://wordpress.org/themes/infruit/)
 ### What is Our Custom Website About
